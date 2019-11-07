@@ -1,15 +1,5 @@
-
-A select options utility for the terminal
-
-# Usage
-
-* Download and cd into the directory.
-* Run `node test`.
-
-# Examples
-
-```js
 const { Select } = require("./")
+
 
 const jsFrameworkSel = new Select({
     question: "Which of these is your fav JS framework?",
@@ -19,10 +9,8 @@ const jsFrameworkSel = new Select({
     color: "magenta"
 })
 
-jsFrameworkSel.start()
-```
+//jsFrameworkSel.start()
 
-```js
 const stylingTypeSel = new Select({
     question: "Which styling do you want?",
     options: ["CSS", "SASS", "SCSS", "LESS"],
@@ -32,4 +20,3 @@ const stylingTypeSel = new Select({
 })
 
 stylingTypeSel.start()
-```
